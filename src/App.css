@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:sans-serif;
+}
+
+body{
+  background-color: #2b1a00;
+  color: #f9ebb1;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+header{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  padding: 30px;
+  background-color: #be6900;
+  border: #977448 20px solid;
+  border-radius:  40px  0 40px 0;
+}
+
+
+
+header .navbar{
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .links{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 30px;
+}
+
+.navbar .links li a{
+  color: #fff;
+  font-weight: 900;
+  text-decoration: none;
+  transition: 1s ease;
+}
+
+.navbar .links li a:hover {
+  border:chocolate 5px  solid;
+  padding: 8px 15px;
+  border-radius: 40px;
+  transition: 1s;
+  background-color: coral;
+}
+
+.navbar .links .join-btn a:hover{
+  color:burlywood;
+  border: transparent;
+  background-color: cornsilk;
+}
+
+.hero-section{
+  height: 100vh;
+  background: url("./assets/pexels-fariphotography-1254655.jpg");
+  background-position: left;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  padding: 0 20px;
+  align-items: center;
+}
+
+.hero-section .content{
+  max-width: 1280px;
+  margin: 0 auto 40px;
+  width: 100%;
+}
+
+.hero-section .content h1{
+  color:goldenrod;
+  font-size: 3rem;
+  max-width: 630px;
+  margin-top: 30px;
+}
+
+.hero-section .search-form input{
+  height: 5.8vh;
+  width: 500px;
+  border: none;
+  outline: none;
+  padding: 0 15px;
+  font-size: 1rem;
+  border-radius: 4px 0 0 4px;
+}
+
+.hero-section .notes{
+  margin-top: 25px;
+  background-color: #493628;
+  border: transparent;
+  border-radius: 10px;
+}
