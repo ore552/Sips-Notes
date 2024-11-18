@@ -3,6 +3,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family:sans-serif;
+  list-style: none;
+  
 }
 
 body{
@@ -11,6 +13,7 @@ body{
   text-decoration: none;
   font-family: sans-serif;
 }
+
 
 header{
   position: fixed;
@@ -62,15 +65,49 @@ header .navbar{
   background-color: cornsilk;
 }
 
+
+
 .hero-section{
   height: 100vh;
-  background: url("./assets/pexels-fariphotography-1254655.jpg");
+  background: url("./assets/cuppas.webp");
   background-position: left;
-  background-size: cover;
   position: relative;
   display: flex;
-  padding: 0 20px;
+  padding:  20px;
   align-items: center;
+}
+
+
+
+.hero-notes{
+  height: 100vh;
+  background: url("./assets/bda03702aefb810633924d2a469ba5f4.png");
+  background-position: left;
+  background-size: contain;
+  position: relative;
+  display: flex;
+  padding:  20px;
+  align-items: center; 
+}
+
+.links-btn {
+  padding: 85px;
+  display: table-cell;
+  border-left: 10px inset coral;
+  border-top: 10px inset coral;
+  border-right: 10px outset #2b1a00;
+  border-bottom: 10px outset #2b1a00;
+  border-radius: 10px;
+  background-color:burlywood;
+  color: chocolate;
+  text-align: center;
+}
+
+.btn-link a{
+  border-radius: 10px;
+  color: white;
+  outline: none;
+  text-decoration: none;
 }
 
 .hero-section .content{

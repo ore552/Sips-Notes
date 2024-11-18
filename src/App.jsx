@@ -21,10 +21,9 @@ function App() {
           </ul>
         </nav>
       </header>
-
+        
       <section className='hero-section'>
 
-        
         <div className='content'>
           <h1>Want to study and learn while getting your beverages, we got you covered.</h1>
           <form action="#" className='search-form'>
@@ -56,8 +55,43 @@ function App() {
 
         </div>
       </section>
+      <section className='hero-notes'>
+      <div className='content'>
+            <div className='notes'>
+              <h1>Our favourites</h1>
+              
+
+                <ul className='links-btn'>
+                  <h2>First Generation Drinks</h2>
+                  <li className='btn-link'><a href="#">Cappuccino <strong>£1.20</strong></a></li>
+                  <li className='btn-link'><a href="#">Black Tea <strong>£1.20</strong></a></li>
+                  <li className='btn-link'><a href="#">Coke <strong>£1.20</strong></a></li>
+                  <li className='btn-link'><a href="#">Milk <strong>£2.00</strong></a></li>
+                  
+                </ul>
+                
+                <ul className='links-btn'>
+                  <h2>Second Generation Drinks</h2>
+                  <li className='btn-link'><a href="#">Latte <strong>£1.30</strong></a></li>
+                  <li className='btn-link'><a href="#">Green Tea <strong>£1.30</strong></a></li>
+                  <li className='btn-link'><a href="#"> Light Tonic<strong>£1.30</strong></a></li>
+                  <li className='btn-link'><a href="#">Fruit Nectar Tropical <strong>£2.99</strong></a></li>
+                </ul>
+                
+                <ul className='links-btn'>
+                  <h2>Third Generation Drinks</h2>
+                  <li className='btn-link'><a href="#">Caffe Macchiato <strong>£1.40</strong></a></li>
+                  <li className='btn-link'><a href="#">Oolong Tea <strong>£1.40</strong></a></li>
+                  <li className='btn-link'><a href="#">Fanta <strong>£1.40</strong></a></li>
+                  <li className='btn-link'><a href="#">Tropical Fruit Jam Milk <strong>£3.50</strong></a></li>
+                </ul>
+              
+            </div>
+      </div>
+      </section>
     </>
   )
 }
 
 export default App
+
