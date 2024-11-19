@@ -56,10 +56,10 @@ function App() {
         </div>
       </section>
       <section className='hero-notes'>
-      <div className='content'>
+        <div className='content'>
             <div className='notes'>
-              <h1>Our favourites</h1>
-              
+              <h1 className='large'>Our Sips</h1>
+             
 
                 <ul className='links-btn'>
                   <h2>First Generation Drinks</h2>
@@ -72,23 +72,90 @@ function App() {
                 
                 <ul className='links-btn'>
                   <h2>Second Generation Drinks</h2>
-                  <li className='btn-link'><a href="#">Latte <strong>£1.30</strong></a></li>
-                  <li className='btn-link'><a href="#">Green Tea <strong>£1.30</strong></a></li>
-                  <li className='btn-link'><a href="#"> Light Tonic<strong>£1.30</strong></a></li>
-                  <li className='btn-link'><a href="#">Fruit Nectar Tropical <strong>£2.99</strong></a></li>
+                  <li className='btn-link'><a href="#">Latte <strong>£2.30</strong></a></li>
+                  <li className='btn-link'><a href="#">Green Tea <strong>£2.30</strong></a></li>
+                  <li className='btn-link'><a href="#"> Light Tonic<strong>£2.30</strong></a></li>
+                  <li className='btn-link'><a href="#">Fruit Nectar Tropical <strong>£4.99</strong></a></li>
                 </ul>
                 
                 <ul className='links-btn'>
                   <h2>Third Generation Drinks</h2>
-                  <li className='btn-link'><a href="#">Caffe Macchiato <strong>£1.40</strong></a></li>
-                  <li className='btn-link'><a href="#">Oolong Tea <strong>£1.40</strong></a></li>
-                  <li className='btn-link'><a href="#">Fanta <strong>£1.40</strong></a></li>
-                  <li className='btn-link'><a href="#">Tropical Fruit Jam Milk <strong>£3.50</strong></a></li>
+                  <li className='btn-link'><a href="#">Caffe Macchiato <strong>£3.40</strong></a></li>
+                  <li className='btn-link'><a href="#">Oolong Tea <strong>£3.40</strong></a></li>
+                  <li className='btn-link'><a href="#">Fanta <strong>£3.40</strong></a></li>
+                  <li className='btn-link'><a href="#">Tropical Fruit Jam Milk <strong>£5.50</strong></a></li>
                 </ul>
-              
+
+                <ul className='specials links-btn'>
+                    <h1>Specials!!!</h1>
+                    <li className='btn-link'>Pina Colada (mocktail)</li>
+                    <li className='btn-link'>Magarita (mocktail)</li>
+                    <li className='btn-link'>Rainbow shaved ice</li>
+                    <li className='btn-link'>Apple jelly</li>
+                </ul>
             </div>
       </div>
-      </section>
+    </section>
+    <section className='hero-sips'>
+      <h1 className='large'>Our Notes</h1>
+      
+      <div className='rightcolumn'>
+        <ul>
+        <h5>: Fun Random facts for you to know!</h5>
+          <li> 
+            Scotland's national animal is a unicorn
+            The unicorn is the national animal of Scotland because in Celtic mythology, it represents purity, innocence, dominance, and chivalry.
+          </li>
+          <li>
+            Sloths are blind in bright daylight:
+            Sloths have a condition called rod monochromacy, which means they lack cone cells in their eyes. This makes them color-blind, and they can only see poorly in dim light.
+          </li>
+          <li>
+            Snails have teeth:
+            Snails have up to 12,000 teeth in a structure called a radula in their mouths. They use the radula to break down and pry off pieces of what they're eating.
+          </li>
+          <li>
+            Ketchup was once sold as medicine:
+            In the 1830s, an Ohio physician named John Cook sold ketchup as a remedy for indigestion. It wasn't widely used as a condiment until the late 1800s.
+          </li>
+          <li>
+            Venus spins backwards:
+            Venus spins in the opposite direction of Earth and most other planets. It takes Venus about 243 Earth days to spin once, and 225 Earth days to orbit the sun.
+          </li>
+          <li>
+            Avocados are not vegetables:
+            Avocados are fruits because they are single-seeded berries.
+          </li>
+        </ul>
+        <ul>
+          <li>
+            A chef's hat has 100 folds:
+            The 100 folds in a chef's hat, also known as a toque, represent 100 ways to cook an egg.
+          </li>
+          <li>
+            Cats can't taste sweet thing:
+            Cats are unable to taste sweet things because of a mutation in one of their taste receptors
+          </li>
+          <li>
+            Bats give birth upside down:
+            Female bats give birth while hanging upside down and use their wings or tail membrane to create a safety net to prevent the baby from falling.
+          </li>
+          <li>
+            Australia is wider than the moon:
+            Australia is almost 4,000 km in diameter from east to west, while the moon is 3,400 km in diameter.
+          </li>
+          <li>
+            Bananas are berries:
+            Bananas are scientifically classified as berries, which are a subgroup of fruits. Berries are the sweet, fleshy, seed-bearing part of a flowering plant.
+          </li>
+          <li>
+            No number before 1,000 contains the letter A:
+            If you were to spell out every number from 1-999, not one contains the letter 'A'. 'A' is the second most commonly-used letter, yet one thousand (1,000) is the first number spelt out that has the first A in it. 
+          </li>
+        </ul>
+      </div>
+
+    </section>
     </>
   )
 }

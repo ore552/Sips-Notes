@@ -3,13 +3,13 @@
   padding: 0;
   box-sizing: border-box;
   font-family:sans-serif;
-  list-style: none;
+  /* list-style: none; */
   
 }
 
 body{
-  background-color: #2b1a00;
-  color: #f9ebb1;
+  background-color: #ffffff;
+  color: #fdba00;
   text-decoration: none;
   font-family: sans-serif;
 }
@@ -83,16 +83,17 @@ header .navbar{
   height: 100vh;
   background: url("./assets/bda03702aefb810633924d2a469ba5f4.png");
   background-position: left;
-  background-size: contain;
+  background-size: cover;
   position: relative;
   display: flex;
   padding:  20px;
   align-items: center; 
+  margin: 10px;
 }
 
 .links-btn {
   padding: 85px;
-  display: table-cell;
+  display: flex;
   border-left: 10px inset coral;
   border-top: 10px inset coral;
   border-right: 10px outset #2b1a00;
@@ -100,7 +101,26 @@ header .navbar{
   border-radius: 10px;
   background-color:burlywood;
   color: chocolate;
-  text-align: center;
+  /* text-align: center; */
+  justify-content: center; 
+
+}
+
+.large{
+  display: flex;
+  justify-content: center;
+  font-size: 70px;
+  color: #2b1a00;
+}
+
+.btn-link{
+  border: 10px groove color-mix(in lab, coral 50%, burlywood 25%);
+  border-radius: 10px;
+  border-width: 20px;
+  height: 10vh;
+  display: block;
+  justify-content: center;
+  cursor: pointer;
 }
 
 .btn-link a{
@@ -108,6 +128,30 @@ header .navbar{
   color: white;
   outline: none;
   text-decoration: none;
+}
+
+
+.hero-sips{
+  height: 100vh;
+  background: url("./assets/our notes.jpg");
+  background-position: left;
+  position: relative;
+  display: flex;
+  padding:  20px;
+  align-items: center;
+}
+
+.hero-sips h1{
+  /* border: red solid 10px;
+  font-size: 70px; */
+  color: white;
+}
+
+.hero-sips ul{
+  border: solid red 10px;
+  color: white;
+  border-radius: 0px 100px 100px 0px;
+  
 }
 
 .hero-section .content{
@@ -139,3 +183,33 @@ header .navbar{
   border: transparent;
   border-radius: 10px;
 }
+
+@media  (max-width:1200px) {
+  .hero-section{
+    width: 1025px;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    font-size: 15px;
+    /* background-size: contain; */
+  }
+
+  .hero-notes{
+    /* margin: 0; */
+    width: 1025px;
+    justify-content: center;
+    height: 190vh;
+    font-size: 15px;
+  }
+
+  .links-btn{
+    width: 590px;
+  }
+}
+
+/* @media (max-width:1050px){
+  .hero-section{
+    display: flex;
+    width: 1000px;
+  }
+} */
