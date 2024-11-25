@@ -63,6 +63,7 @@ header .navbar{
   color:burlywood;
   border: transparent;
   background-color: cornsilk;
+  border:5px solid #ffe786;
 }
 
 
@@ -80,7 +81,7 @@ header .navbar{
 
 
 .hero-notes{
-  height: 100vh;
+  height: 150vh;
   background: url("./assets/bda03702aefb810633924d2a469ba5f4.png");
   background-position: left;
   background-size: cover;
@@ -132,9 +133,10 @@ header .navbar{
 
 
 .hero-sips{
-  height: 100vh;
+  height: 80vh;
   background: url("./assets/our notes.jpg");
   background-position: left;
+  /* background-size: cover; */ 
   position: relative;
   display: flex;
   padding:  20px;
@@ -153,6 +155,153 @@ header .navbar{
   border-radius: 0px 100px 100px 0px;
   
 }
+
+.hero-about{
+  height: 110vh;
+  background: url("./assets/join.jpg");
+  background-position: left;
+  background-size: cover; 
+  /* position: relative; */
+  display: flex;
+  padding:  20px;
+  align-items: center;
+  /* text-align: center; */
+  justify-content: center;
+}
+
+.hero-join{
+  height: 110vh;
+  background: url("./assets/notestsies.webp");
+  background-position: left;
+  background-size: cover; 
+  /* position: relative; */
+  display: flex;
+  padding:  20px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.hero-join h1{
+  font-size: 2.5rem;
+  top: 100%;
+}
+
+.wrapper {
+  /* display: flex;
+  justify-content: center; */
+  width: 900px;
+  border-radius: 8px;
+  padding: 30px;
+  text-align: center;
+  border: 3px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter:blur(9px);
+  -webkit-backdrop-filter: blur(9px);
+
+}
+
+form {
+  display: flex;
+  flex-direction:column;
+
+}
+
+h2 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.input-field {
+position: relative;
+border-bottom: 2px solid #ccc;  
+margin: 15px 0;
+}
+
+.input-field label{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform:translateY(-50%);
+  color: #fff;
+  font-size: 16px;
+  pointer-events: none;
+  transition: 0.15s ease;
+}
+
+.input-field input{
+  width: 100%;
+  height: 40px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: #fff;
+}
+
+.input-field input:focus~label,
+.input-field input:valid~label {
+font-size: 1.1rem;
+top: 10px;
+transform: translateY(-120%);
+}
+
+.forget{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 25px 0 35px 0;
+  color:white;
+}
+
+#remember{
+  accent-color: #fff;
+}
+
+.forget label{
+  display: flex;
+  align-items: center;
+}
+
+.forget label p{
+  margin-left: 8px;    
+}
+
+
+.wrapper a{
+  color: #efefef;
+  text-decoration: none;
+}
+
+.wrapper a:hover{
+  text-decoration: underline;
+}
+
+button{
+  background-color: #928383;
+  color: #000;
+  font-weight: 600;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 2rem;
+  border: 2px solid transparent;
+  transition: 0.3s ease;
+}
+
+button:hover{
+  color: #fff;
+  border-color: #fff;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.register{
+  text-align: center;
+  margin-top: 30px;
+  color: #fff;
+}
+
 
 .hero-section .content{
   max-width: 1280px;

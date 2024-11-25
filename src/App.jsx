@@ -14,6 +14,7 @@ function App() {
               <li><a href="#">Home</a></li>
               <li><a href="#">Our Sips</a></li>
               <li><a href="#">Our Notes</a></li>
+              <li><a href="#">About our Sips</a></li>
               <li className='join-btn'><a href="#" >Support us</a></li>
               <li className='join-btn'><a href="#" >Join us</a></li>
               <li className='join-btn'><a href="#" >Sign in</a></li>
@@ -155,6 +156,54 @@ function App() {
         </ul>
       </div>
 
+    </section>
+    <section className='hero-join'>
+      
+      <div className='wrapper'>
+      <h1>Support our Sips and Join our Notes</h1>
+        <form>
+          {/* <h2>Login</h2> */}
+          <div className="input-field">
+            <input type="text" required/>
+            <label>Enter Your email.</label>
+          </div>
+          <div className="input-field">
+            <input type="password" required/>
+            <label>Enter your password.</label>
+          </div>
+          <div className='input-field'>
+            <input type="text" required/>
+            <label>Enter your phone number</label>
+          </div>
+          <div className='input-field'>
+            {/* <input type="checkbox" /> */}
+            <input  type="text" required/>
+            <label>Enter your money</label>
+          </div>
+          <div className="forget">
+            <label for="remember">
+              <input type="checkbox" id="remember"/>
+              <p>Remember me</p>
+            </label>
+            <a href="#">Forget Password?</a>
+          </div>
+          <button type="submit">Join and Support</button>
+            </form>
+      </div>
+    </section>
+    <section className='hero-about'>
+      <div className='story right-column'>
+        <h1>Our Story</h1>
+        <p>Toby Macaroo was born in 2000, and he is one of the youngest billionaires to ever walk the planet!. Toby was a kind boy at a young age, he was so keen on studying that he spent many days in his room revising notes for certain tests or subjects that even the teachers hadn't had a look at yet! By 13, he started drinking decaf coffee when studying so he could stay awake for longer to etch all the information he was studying about in his brain. At one point in his life (2015) where there were studying for the GCSEs, he wrote 10 book-sized notes of all the courses he was doing for the GCSEs. In 2018, he had finished secondary school and the first thing in his mind was not university, but coffee! Toby finally realised the need for coffee(took him long enough!) and notes and tips and information for tests and sessions and lectures. So he went to Harvard Universty and later MIT to earn numerous degrees including: <li>Math</li>
+        <li>English</li>
+        <li>Science</li>
+        <li>Logic</li>
+        <li>Physics</li>
+        <li>Home Economics</li>
+        <li>Ethics</li>
+        <li>Handwriting</li>
+        </p>
+      </div>
     </section>
     </>
   )
