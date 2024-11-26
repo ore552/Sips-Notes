@@ -8,7 +8,7 @@ function App() {
       <header>
         <nav className='navbar'>
           <div className='logo'>
-            <h1><a href="#">Sips & Notes</a></h1>
+            <h1><a href="#" className='white'>Sips & Notes</a></h1>
           </div>
           <ul className='links'>
               <li><a href="#">Home</a></li>
@@ -26,7 +26,7 @@ function App() {
       <section className='hero-section'>
 
         <div className='content'>
-          <h1>Want to study and learn while getting your beverages, we got you covered.</h1>
+          <h2>Want to study and learn while getting your beverages, we got you covered.</h2>
           <form action="#" className='search-form'>
             <input type="text" placeholder='Your coffees and teas and fizzy drinks and study notes await...'/>
           </form>
@@ -157,6 +157,50 @@ function App() {
       </div>
 
     </section>
+    <section className='hero-about'>
+      <div className='story rightcolumn'>
+        <h1>Our Story</h1>
+        <p>Toby Macaroo was born in 2000, and he is one of the youngest billionaires to ever walk the planet!. Toby was a kind boy at a young age, he was so keen on studying that he spent many days in his room revising notes for certain tests or subjects that even the teachers hadn't had a look at yet! By 13, he started drinking decaf coffee when studying so he could stay awake for longer to etch all the information he was studying about in his brain. At one point in his life (2015) where there were studying for the GCSEs, he wrote 10 book-sized notes of all the courses he was doing for the GCSEs. In 2018, he had finished secondary school and the first thing in his mind was not university, but coffee! Toby finally realised the need for coffee(took him long enough!) and notes and tips and information for tests and sessions and lectures. So he went to Harvard Universty and later MIT to earn numerous degrees including: 
+        <li>Math</li>
+        <li>English</li>
+        <li>Science</li>
+        <li>Logic</li>
+        <li>Physics</li>
+        <li>Home Economics</li>
+        <li>Ethics</li>
+        <li>Handwriting</li>
+
+        In 2019, He started a company called "Revising Coffee" which always gave a set of revising notes and tips for different things - most importantly tests(GCSEs and A levels). He changed his company name in the start of a new decade (2020) "Sips and Notes" and started shops that had tutors to help (that is if you by a drink) you for 15 minutes per cup you buy! He started changing the way they pay, started righting more notes for people and his most important change in the start of a new decade: He started selling fizzy drinks, milk, water, juices, tonics, sparkling water, and mocktails. In 2021, People started protesting for alcohol in the menu, but he showed his hatred to beer and alcohol, he tried to calm the people offering breakfast, lunch and dinner options but they consisted. They created a boycott, so Sips and Notes had to create some way to get customers again when it hit him. More and more non-alcoholic beers and wines and mocktails, also giving rise to tonics and sparkling drinks.
+
+        Today, Toby is one of the fastest company owners in the world. In this context, he was able to create a company and develop it faster that many of the greatest billionaires ever to walk the planet. He has 12 billion pounds to date and he is making as much profit as can be. We celebrate how many people who went to the cafe for notes and tips passed their tests and earned great results. We started at every tenfold, but soon, we were celebrating millions worldwide! Toby went through trail and error, and he is ready to launch himself to victory, one sip to another.
+        </p>
+      </div>
+
+      <div className='leftcolumn'>
+        <h1>Our Services and Staff</h1>
+        <div>
+          <p>We work in:</p>
+          <ul>
+            <li>Tips for GCSEs and A-levels e.t.c.</li>
+            <li>Help with financees and fund for university for the first term</li>
+            <li>Tutors teach a wide range of subjects - including cooking, art and even music!.</li>
+            <li>We teach lecturers there next lectures if they ask!</li>
+            <li>Every 5 drinks, you get an exam from your tutor, if you get good scores, you might get a free breakfast or lunch!</li>
+        </ul>
+        <br />
+        <br />
+        </div>
+        <div>
+          <p>Our Staff includes:</p>
+          <ul>
+            <li><strong>Mark Briss</strong>: Our cook and co-ceo</li>
+            <li><strong>Jessica Michery</strong>: Professional lecturer, lectures the tutors</li>
+            <li><strong>Donald Akarachi</strong>: The cook who wrote the original cookbook for all cafes</li>
+            <p>And many, many, more!</p>
+          </ul>
+        </div>
+      </div>
+    </section>
     <section className='hero-join'>
       
       <div className='wrapper'>
@@ -172,12 +216,12 @@ function App() {
             <label>Enter your password.</label>
           </div>
           <div className='input-field'>
-            <input type="text" required/>
+            <input type="number" required/>
             <label>Enter your phone number</label>
           </div>
           <div className='input-field'>
             {/* <input type="checkbox" /> */}
-            <input  type="text" required/>
+            <input  type="number" required/>
             <label>Enter your money</label>
           </div>
           <div className="forget">
@@ -191,20 +235,7 @@ function App() {
             </form>
       </div>
     </section>
-    <section className='hero-about'>
-      <div className='story right-column'>
-        <h1>Our Story</h1>
-        <p>Toby Macaroo was born in 2000, and he is one of the youngest billionaires to ever walk the planet!. Toby was a kind boy at a young age, he was so keen on studying that he spent many days in his room revising notes for certain tests or subjects that even the teachers hadn't had a look at yet! By 13, he started drinking decaf coffee when studying so he could stay awake for longer to etch all the information he was studying about in his brain. At one point in his life (2015) where there were studying for the GCSEs, he wrote 10 book-sized notes of all the courses he was doing for the GCSEs. In 2018, he had finished secondary school and the first thing in his mind was not university, but coffee! Toby finally realised the need for coffee(took him long enough!) and notes and tips and information for tests and sessions and lectures. So he went to Harvard Universty and later MIT to earn numerous degrees including: <li>Math</li>
-        <li>English</li>
-        <li>Science</li>
-        <li>Logic</li>
-        <li>Physics</li>
-        <li>Home Economics</li>
-        <li>Ethics</li>
-        <li>Handwriting</li>
-        </p>
-      </div>
-    </section>
+
     </>
   )
 }
